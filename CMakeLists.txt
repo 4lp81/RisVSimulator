@@ -4,8 +4,7 @@ project(RisVSimulator)
 set(CMAKE_CXX_STANDARD 26)
 
 add_executable(RiscVSimulator main.cpp
-        InsMem.cpp
-        InsMem.h
-        CPU.cpp
-        CPU.h
+        Disassembler.cpp
+        Disassembler.h
+        Disassembler.cpp
 )
